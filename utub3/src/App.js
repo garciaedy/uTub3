@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {Grid} from '@material-ui/core';
 import Utub3 from './api/Utub3'
+import {SearchBar, VideoList, VideDetail} from './components'
 
 export default class App extends Component {
     render() {
